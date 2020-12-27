@@ -1,25 +1,3 @@
-:root {
-  --firebrick: #b3001bff;
-  --eerie-black: #262626ff;
-  --lapis-lazuli: #255c99ff;
-  --iceberg: #7ea3ccff;
-  --tan: #ccad8fff;
-}
-
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: var(--iceberg);
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
